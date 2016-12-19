@@ -1,0 +1,100 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+  color: black;
+
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fffae9;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 25px;
+}
+
+h1 {
+  font-family: 'Belleza', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  color: rgba(255,167,144,1);
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 350px;
+  padding: 5px 25px;
+}
+
+.nav-item {
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: #797979;
+  font-weight: 500;
+}
+
+.parallax-1 {
+    background: url(../images/office.jpg) no-repeat center top rgb(134,141,157);
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12.5% 25%;
+  text-align: center;
+}
+
+
+h2 {
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 0.20em;
+  line-height: 1.4em;
+  color: white;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  padding: 10%;
+}
+
+#about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.parallax-2 {
+    background: url(../images/iphone.jpg) no-repeat center top rgb(134,141,157);
+    min-height: 350px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
