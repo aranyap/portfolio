@@ -6,7 +6,7 @@ body {
   font-family: 'Muli', sans-serif;
   font-weight: 300;
   letter-spacing: 0.04em;
-  font-size: 20px;
+  font-size: 16px;
   color: grey;
 
 }
@@ -81,7 +81,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 6% 30%;
+  padding: 5% 25%;
 }
 
 #about-me {
@@ -108,7 +108,7 @@ ul {
 }
 
 p {
-  padding-bottom: 30px;
+  padding-bottom: 25px;
   text-align: center;
   line-height: 1.4em;
 }
